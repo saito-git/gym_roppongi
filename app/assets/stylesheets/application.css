@@ -13,31 +13,34 @@
  *= require_tree .
  *= require_self
  */
-.top-page-head
+/* .top-page-head
 {
     position: relative
-}
+} */
+/* .top-page-head
+{
+  background-image: url("<%= asset_path('background-image.png') %>")
+  height: 800px;
+  background-size:cover;
+} */
 .top-page-head h1
 {
-    position: absolute;
-    width: 100%
-    left: 0;
-    top: calc(50% - 25px);
-    text-align: center;
-    color: darkblue;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
-}
-.top-page-head div.top-page-head-text
-{
   position: relative;
+  font-family:Avenir Next;
   width: 100%
   left: 0;
   top: calc(50% - 25px);
   text-align: center;
   color: darkblue;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 40px;
+  font-size: 40px;
+  /* line-height: 40px; */
+}
+.top-page-head div.top-page-head-text
+{
+  position: relative;
+  font-family:Avenir Next;
+  /* top: px; */
+  text-align: center;
+  font-size: 20px;
 }
