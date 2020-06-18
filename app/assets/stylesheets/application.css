@@ -20,22 +20,42 @@
   padding:0;
 }
 
-/* .top-page-head image_tag
-{
-  width: 100%;
-} */
-
 .top-page-head p
 {
   position: absolute;
-  font-family:Avenir Next;
+  font-family: Avenir Next;
   color: white;
   font-size: 20px;
   top: 60%;
   left: 50%;
-  /* -ms-transform: translate(-10%,-10%); */
-  /* -webkit-transform: translate(-10%,-10%); */
+  /* -ms-transform: translate(-10%,-10%);
+  -webkit-transform: translate(-10%,-10%); */
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
+}
+
+.link_buttons
+{
+  position: relative;
+}
+
+.link_to_search_gyms
+{
+  position: absolute;
+  font-family: Avenir Next;
+  color: blue;
+  font-size: 20px;
+  top: 20%;
+  left: 30%;
+}
+
+.link_to_posts
+{
+  position: absolute;
+  font-family: Avenir Next;
+  color: blue;
+  font-size: 20px;
+  top: 20%;
+  right: 30%;
 }
