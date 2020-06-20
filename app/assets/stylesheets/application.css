@@ -1,0 +1,72 @@
+
+.top-page-head
+{
+  position: relative;
+}
+
+.top-page-head h1
+{
+  position: absolute;
+  font-family:Avenir Next;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.top-page-head p
+{
+  position: absolute;
+  font-family: Avenir Next;
+  color: white;
+  font-size: 20px;
+  top: 60%;
+  left: 50%;
+  /* -ms-transform: translate(-10%,-10%);
+  -webkit-transform: translate(-10%,-10%); */
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.link_buttons
+{
+  position: relative;
+}
+
+.link_to_gyms
+{
+  /* position: absolute;
+  font-family: Avenir Next;
+  color: blue;
+  font-size: 20px;
+  top: 20%;
+  left: 30%; */
+  display:block;
+  font-family: Avenir Next;
+  height:50px;
+  margin:1em 0;
+  line-height:50px;
+  background: #008080;
+  color: white;
+  border-radius:25px;
+  text-decoration:none;
+  text-align:center;
+  left: 30%;
+}
+
+.link_to_posts
+{
+  position: absolute;
+  font-family: Avenir Next;
+  color: blue;
+  font-size: 20px;
+  top: 20%;
+  right: 30%;
+}
