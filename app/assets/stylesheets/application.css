@@ -40,13 +40,24 @@
   position: relative;
 }
 
-.link_to_search_gyms
+.link_to_gyms
 {
-  position: absolute;
+  /* position: absolute;
   font-family: Avenir Next;
   color: blue;
   font-size: 20px;
   top: 20%;
+  left: 30%; */
+  display:block;
+  font-family: Avenir Next;
+  height:50px;
+  margin:1em 0;
+  line-height:50px;
+  background: green;
+  color: white;
+  border-radius:25px;
+  text-decoration:none;
+  text-align:center;
   left: 30%;
 }
 
