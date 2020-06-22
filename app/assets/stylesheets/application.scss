@@ -11,12 +11,16 @@
   padding-bottom: 7.5%;
 }
 
-.navbar{
-  position: absolute;
+ul {
+  list-style: none;
 }
 
-a.nav-link{
-  color: white;
+nav{
+  font-size: 1vw;
+}
+
+.logo img {
+  width: 208px;
 }
 
 h1.display-4{

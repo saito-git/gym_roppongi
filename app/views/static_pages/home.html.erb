@@ -1,26 +1,27 @@
 
 <div class="jumbotron">
-  <nav class="w-full flex justify-between">
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://pasto.solto.jp/">ジムを探す</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://solto.jp/">記事を読む</a>
-        </li>
-      </ul>
-    <!-- <span class="navbar-text">
-      Navbar text with an inline element
-    </span> -->
+
+  <header class="navbar navbar-fixed-top">
+    <div class="container">
+
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <nav class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Home",   '#', {:style=>"color:white;"}%></li>
+          <li><%= link_to "ジムを探す",   'https://solto.jp/party/', {:style=>"color:white;"}%></li>
+          <li><%= link_to "記事を読む", 'https://solto.jp/', {:style=>"color:white;"}%></li>
+        </ul>
+      </nav>
+
     </div>
-  </nav>
+  </header>
 
   <h1 class="display-4">六本木ジムナビへようこそ</h1>
   <p class="lead">このサイトは、六本木のパーソナルジムを紹介するサイトです。</p>
+
 </div>
 
 
