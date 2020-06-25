@@ -1,25 +1,21 @@
-
-<div class="jumbotron top-jumbotron">
-
-  <header class="navbar navbar-fixed-top">
+<header class="navbar navbar-fixed-top">
     <div class="container">
       <nav class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to "Home",   '#', {:style=>"color:white;"}%></li>
-          <li><%= link_to "ジムを探す",   'https://solto.jp/party/', {:style=>"color:white;"}%></li>
-          <li><%= link_to "記事を読む", 'https://solto.jp/', {:style=>"color:white;"}%></li>
+          <li class="top-nav-link"><%= link_to "Home", '#'%></li>
+          <li class="top-nav-link"><%= link_to "ジムを探す", 'https://solto.jp/party/'%></li>
+          <li class="top-nav-link"><%= link_to "記事を読む", 'https://solto.jp/'%></li>
         </ul>
       </nav>
-    </div>
-  </header>
+</header>
+  <div class="jumbotron top-jumbotron">
+    <h1 class="display-4 top-jumbotron-inner">六本木ジムナビへようこそ</h1>
+    <p class="lead top-jumbotron-leading">このサイトは、六本木のパーソナルジムを紹介するサイトです。</p>
+  </div>
+<body>
 
-  <h1 class="display-4">六本木ジムナビへようこそ</h1>
-  <p class="lead">このサイトは、六本木のパーソナルジムを紹介するサイトです。</p>
-
-</div>
-
-
-<div class="container">
+</body>
+<div class="container top-page-gyms">
   <a class="btn btn-primary" href='https://solto.jp/party/'>
     ジムを探す
   </a>
