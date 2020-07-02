@@ -1,7 +1,7 @@
   @import "bootstrap-sprockets";
   @import "bootstrap";
 
-.jumbotron{
+.top-jumbotron{
   position: relative;
   background-image: url("home_background.png");
   background-position:center center;
@@ -11,16 +11,24 @@
   padding-bottom: 7.5%;
 }
 
-.navbar{
-  position: absolute;
+ul {
+  list-style: none;
 }
 
-a.nav-link{
-  color: white;
-}
-
-h1.display-4{
+li a{
   color:white;
+}
+
+nav{
+  font-size: 1vw;
+}
+
+.logo img {
+  width: 208px;
+}
+
+.display-4.top-jumbotron-inner{
+  color: white;
   font-size: 4vw;
   font-family:monospace;
   font-weight: bold;
@@ -28,7 +36,7 @@ h1.display-4{
   line-height: normal;
 }
 
-p.lead{
+p.lead.top-jumbotron-leading{
   color:white;
   text-align: center;
   font-size: 1.6vw;
