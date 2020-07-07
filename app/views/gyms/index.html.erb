@@ -1,0 +1,11 @@
+<h1>六本木のパーソナルジム一覧</h1>
+<p>六本木のパーソナルジムの一覧ページ</p>
+<% provide(:title, 'All gyms') %>
+
+<ul class="gyms">
+  <% @gyms.each do |gym| %>
+    <li>
+      <%= link_to gym.name, gym %>
+    </li>
+  <% end %>
+</ul>
