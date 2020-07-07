@@ -1,24 +1,15 @@
-<% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
+<% provide(:title, 'Create New Page') %>
+<h1>Create a new gym_page</h1>
 
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <%= form_for(@gym, url: signup_path) do |f| %>
-    <%= render 'shared/error_messages' %>
+<%= form_for @gym do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
 
-    <%= f.label :name %>
-    <%= f.text_field :name, class: 'form-control' %>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
 
-    <%= f.label :address %>
-    <%= f.text_field :address, class: 'form-control' %>
-
-    <%= f.label :password %>
-    <%= f.password_field :password, class: 'form-control' %>
-
-    <%= f.label :password_confirmation, "Confirmation" %>
-    <%= f.password_field :password_confirmation, class: 'form-control' %>
-
-    <%= f.submit "Create my account", class: "btn btn-primary" %>
-    <% end %>
-  </div>
-</div>
+    <%= f.label :image %><br />
+    <%= f.file_field :img, class: "image" %>
+    <p><%= f.check_box :remove_img %>Delete the image.</p>
+    <%= f.submit %>
+<% end %>

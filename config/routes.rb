@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'gyms/new'
+
   root 'static_pages#home'
 
   get  'static_pages/home'

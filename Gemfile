@@ -11,6 +11,9 @@ gem 'jbuilder',     '2.7.0'
 gem 'rails',          '5.1.6'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt',         '3.1.12'
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
+gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
